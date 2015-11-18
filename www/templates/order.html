@@ -1,0 +1,36 @@
+<ion-view view-title="Your Order">
+  <ion-nav-buttons side="right">
+    <a class="button button-clear" href="#/tab/dash/orders/pay/{{hotel.id}}">
+      Checkout
+    </a>
+  </ion-nav-buttons>
+  <ion-content class="padding">
+
+    <div class="row header">
+      <div class="col">Food Item</div>
+      <div class="col">Price</div>
+    </div>
+    <div class="row item-divider" ng-repeat="item in items">
+      <div class="col">{{item.name}}</div>
+      <div class="col">{{item.price}}</div>
+    </div>
+    -----------------------------------------------------
+    <div class="row item-divider">
+      <div class="col">Bill</div>
+      <div class="col">{{createBill(items)|number:2}}</div>
+    </div>
+    <div class="row item-divider">
+      <div class="col">tax 10%</div>
+      <div class="col">{{createBill(items)*0.1|number:2}}</div>
+    </div>
+    <div class="row item-divider">
+      <div class="col">Delivery Fees</div>
+      <div class="col">2</div>
+    </div>
+    -----------------------------------------------------
+    <div class="row item-divider">
+      <div class="col">Total</div>
+      <div class="col">{{createBill(items) + createBill(items)*0.1 + 2|number:2}}</div>
+    </div>
+  </ion-content>
+</ion-view>

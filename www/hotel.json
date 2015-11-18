@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Beso-Cafe & Bar",
+    "img": "../img/hotels/beso.jpeg"
+  },
+  {
+    "id": 1,
+    "name": "Chipotle",
+    "img": "../img/hotels/chipotle.png"
+  },
+  {
+    "id": 2,
+    "name": "Curry Hotels",
+    "img": "../img/hotels/curry.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Madhuban",
+    "img": "../img/hotels/images.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Flames",
+    "img": "../img/hotels/logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Masala and Spice",
+    "img": "../img/hotels/masala.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Mia Pizza",
+    "img": "../img/hotels/mia.png"
+  }
+]

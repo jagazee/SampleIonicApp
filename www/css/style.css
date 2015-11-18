@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+
+.ion-ios-pulse-strong:before {
+  content: url('../img/hotels.png') !important;
+}
+.ion-ios-pulse-strong{
+  content: url('../img/hotels.png') !important;
+}
+.ion-ios-pulse{
+  content: url('../img/hotels.png') !important;
+}

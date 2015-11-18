@@ -1,0 +1,16 @@
+<ion-view view-title="UberFoodRun">
+  <ion-nav-buttons side="left">
+    <button class="button button-clear ion-navicon-round" ng-click="gotClicked()">
+    </button>
+  </ion-nav-buttons>
+
+  <ion-content class="padding">
+    <ion-list class="list" ng-repeat="(key,hotel) in hotels">
+      <ion-item class="item item-avatar" href="#/tab/dash/{{hotel.id}}">
+        <img src="{{hotel.img}}"/>
+        <h2>{{hotel.name}}</h2>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,14 @@
+<ion-view view-title="{{hotel.name + '- Menu'}}">
+  <ion-nav-buttons side="right">
+    <a class="button button-clear" href="#/tab/dash/orders/{{hotel.id}}">
+      Place Order
+    </a>
+  </ion-nav-buttons>
+  <ion-content class="padding">
+    <ion-list class="item-remove-animate item-checkbox" ng-repeat="item in menu">
+      <ion-checkbox ng-click="toggleSelection(item)">
+          {{item.name}} {{item.price}}
+      </ion-checkbox>
+    </ion-list>
+  </ion-content>
+</ion-view>
